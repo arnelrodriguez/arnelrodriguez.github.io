@@ -64,12 +64,23 @@ a {
     justify-content: space-between;
 }
 
+.flex a {
+    font-family: open sans;
+    font-size: 16px;
+}
+
 nav > a {
     margin-right: 48px;
+    padding-bottom: 3px;
+}
+
+
+nav > a:hover {
+    border-bottom: 2px solid black; 
 }
 
 nav > a:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 header > div {
@@ -78,4 +89,244 @@ header > div {
 
 header {
     margin-bottom: 54px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.nel-details {
+    max-width: 486px;
+}
+
+.nel-details h1 {
+    margin-top: 10px;
+    text-shadow: 2px 1px #E5E4E2;
+}
+
+.nel-details h4 {
+    font-family: open sans;
+    color: #eaa221;
+}
+
+.nel-image > img {
+    width: 486px;
+    height: auto;
+}
+
+.nel-details p {
+    font-family: Open Sans;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons > a {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buttons > a:last-child {
+    margin-left: 10px;
+}
+
+.buttons > a:first-child {
+    background-color: #ffcc00;
+    padding: 10px 42px;
+}
+
+.buttons > a:first-child:hover {
+    background-color:#ffa100;
+    transition-duration: 0.4s;
+    color: #FFFFFF;
+}
+
+.buttons > a:last-child {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 35px;
+}
+
+.buttons > a:last-child:hover {
+    color:#eaa221; 
+}
+
+#projects > h1 {
+    text-align: center;
+}
+
+.hr1 {
+    width: 70px;
+    height: 3px;
+    border: 0 none;
+    background-color: #F5B041;
+    margin: auto;
+    
+}
+
+.box-family {
+    margin-top: 50px;
+    display: flex;   
+}
+
+.box {
+    width: 50%;
+    height: 450px;
+    
+}
+
+.box1 {
+    background-color: #FFFFFF;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box2 {
+    background-color: #FFFFFF;
+    border-radius: 0px 15px 15px 0px; 
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.con {
+    margin: 50px 50px 0px 50px;
+}
+
+.con p {
+    margin-top: 20px;
+    font-family: Open Sans;
+}
+
+.con button {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.con button:hover {
+    border: 2px solid #eaa221;
+    color: #eaa221;
+}
+
+.footers {
+    justify-content: flex;
+    margin: 60px 0px 0px 0px;
+}
+
+.footers p {
+    text-align: center;
+    color: #5b5b5b;
+    font-family: open sans;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.socia-media img {
+    margin: 10px 10px 15px 10px;
+    width: auto;
+    height: 25px;
+}
+
+.box2 img {
+    position: relative;
+    background-size: cover;
+    width: 0 auto;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.box1 img {
+    position: relative;
+    border-radius: 15px 0px 0px 15px;
+    height: 100%;
+}
+
+.abouts {
+    margin-top: 120px;
+}
+
+.abouts p {
+    margin-top: 30px;
+    font-family: Open Sans;
+}
+
+.abouts button {
+    margin-top: 25px;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background-color: orange;
+    font-family: Open Sans;
+    font-size: 13px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FFAC1C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #E3963E;
+  }
+  
+  .containers {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 600px;
+    height:auto;
+    margin-top: 20px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.about-me img{
+    margin-top: 30px;
+    width: 450px;
+    height: auto;
+}
+
+.footer-back img {
+    height: 100px;
+    width: 100%;
+
 }
